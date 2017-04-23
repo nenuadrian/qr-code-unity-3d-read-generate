@@ -62,3 +62,6 @@ public Texture2D generateQR(string text) {
 Texture2D myQR = generateQR("test");
 if (GUI.Button (new Rect (300, 300, 256, 256), myQR, GUIStyle.none)) {}
 ```
+
+
+I am using Unity 5.3.5
