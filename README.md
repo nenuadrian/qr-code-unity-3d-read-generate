@@ -58,4 +58,7 @@ public Texture2D generateQR(string text) {
   encoded.Apply();
   return encoded;
 }
+
+Texture2D myQR = generateQR("test");
+if (GUI.Button (new Rect (300, 300, 256, 256), myQR, GUIStyle.none)) {}
 ```
